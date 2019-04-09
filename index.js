@@ -30,7 +30,7 @@ function respond (done) {
     if (err) return done(err)
     var result = {
       url: data.DomainName,
-      certId: data.DistributionConfig.ViewerCertificate.IAMCertificateId,
+      certId: data.DistributionConfig.ViewerCertificate.AWSCertificateArn,
       distribution: data
     }
     done(null, result)
