@@ -26,7 +26,8 @@ module.exports = function (config) {
             Quantity: 0,
           }
         },
-        MinTTL: 0
+        MinTTL: 0,
+        Compress: true
       },
       CacheBehaviors: {
         Quantity: 0
